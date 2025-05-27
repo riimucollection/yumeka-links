@@ -37,18 +37,32 @@
 
     .link-button {
       text-decoration: none;
-      background-color: #4CAF50;
-      color: white;
       padding: 15px 25px;
       border-radius: 10px;
       width: 80%;
       max-width: 300px;
       font-size: 16px;
-      transition: background-color 0.3s ease;
+      transition: opacity 0.3s ease;
+    }
+
+    .link-button.group-utama {
+      background-color: #000;
+      color: white;
+    }
+
+    .link-button.support-sensei {
+      background-color: white;
+      color: black;
+      border: 2px solid #ccc;
+    }
+
+    .link-button.lainnya {
+      background-color: #2196F3;
+      color: white;
     }
 
     .link-button:hover {
-      background-color: #388e3c;
+      opacity: 0.9;
     }
   </style>
 </head>
@@ -58,15 +72,17 @@
     <img src="https://via.placeholder.com/120" alt="Yumeka Nihongo Class">
     <h2>Yumeka Nihongo Class</h2>
   </div>
-<p class="description">Belajar bahasa Jepang dari dasar dengan metode menyenangkan dan terstruktur.</p>
+  
+  <p class="description">Belajar bahasa Jepang dari dasar dengan metode menyenangkan dan terstruktur.</p>
+  
   <div class="link-container">
-    <a class="link-button" href="https://chat.whatsapp.com/GJTM7yFJBE36PagWJt3T5u" target="_blank">Grup Utama</a>
-    <a class="link-button" href="https://chat.whatsapp.com/INJSrOVpBFD2heiV4LNbtj" target="_blank">Hiragana & Katakana</a>
-    <a class="link-button" href="https://chat.whatsapp.com/HYOinCXMcHs8EV11zrvA8G" target="_blank">JLPT N5</a>
-    <a class="link-button" href="https://chat.whatsapp.com/Loj3TcPq3YxDhA2MVoVzWN" target="_blank">JLPT N4</a>
-    <a class="link-button" href="https://chat.whatsapp.com/EwMaeM7uiNoIRueqAMqnOD" target="_blank">JLPT N3</a>
-    <a class="link-button" href="https://chat.whatsapp.com/HSyy8m4bmplDPnFG74TFCk" target="_blank">100% 日本語</a>
-    <a class="link-button" href="https://trakteer.id/RiimuCollection" target="_blank">Support Sensei</a>
+    <a class="link-button group-utama" href="https://chat.whatsapp.com/GJTM7yFJBE36PagWJt3T5u" target="_blank">Grup Utama</a>
+    <a class="link-button lainnya" href="https://chat.whatsapp.com/INJSrOVpBFD2heiV4LNbtj" target="_blank">Hiragana & Katakana</a>
+    <a class="link-button lainnya" href="https://chat.whatsapp.com/HYOinCXMcHs8EV11zrvA8G" target="_blank">JLPT N5</a>
+    <a class="link-button lainnya" href="https://chat.whatsapp.com/Loj3TcPq3YxDhA2MVoVzWN" target="_blank">JLPT N4</a>
+    <a class="link-button lainnya" href="https://chat.whatsapp.com/EwMaeM7uiNoIRueqAMqnOD" target="_blank">JLPT N3</a>
+    <a class="link-button lainnya" href="https://chat.whatsapp.com/HSyy8m4bmplDPnFG74TFCk" target="_blank">100% 日本語</a>
+    <a class="link-button support-sensei" href="https://trakteer.id/RiimuCollection" target="_blank">Support Sensei</a>
   </div>
 
 </body>
