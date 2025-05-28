@@ -5,11 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yumeka Nihongo Class</title>
   <style>
-    body {
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f0f4f8;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
       text-align: center;
-      padding: 40px;
     }
 
     .profile {
@@ -25,6 +43,11 @@
 
     .profile h2 {
       margin-top: 10px;
+      color: #333;
+    }
+
+    .description {
+      margin-bottom: 30px;
       color: #333;
     }
 
@@ -69,34 +92,39 @@
     .link-button:hover {
       opacity: 0.9;
     }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
   </style>
 </head>
 <body>
 
-  <div class="profile">
-    <img src="https://via.placeholder.com/120" alt="Yumeka Nihongo Class">
-    <h2>Yumeka Nihongo Class</h2>
-  </div>
-  
-  <p class="description">Belajar bahasa Jepang dari dasar dengan metode menyenangkan dan terstruktur.</p>
-  
-  <div class="link-container">
-    <a class="link-button pendaftaran" href="https://bit.ly/YumekaNihongoClass" target="_blank">Pendaftaran</a>
-    <a class="link-button group-utama" href="https://chat.whatsapp.com/GJTM7yFJBE36PagWJt3T5u" target="_blank">Grup Utama</a>
-    <a class="link-button lainnya" href="https://chat.whatsapp.com/INJSrOVpBFD2heiV4LNbtj" target="_blank">Hiragana & Katakana</a>
-    <a class="link-button lainnya" href="https://chat.whatsapp.com/HYOinCXMcHs8EV11zrvA8G" target="_blank">JLPT N5</a>
-    <a class="link-button lainnya" href="https://chat.whatsapp.com/Loj3TcPq3YxDhA2MVoVzWN" target="_blank">JLPT N4</a>
-    <a class="link-button lainnya" href="https://chat.whatsapp.com/EwMaeM7uiNoIRueqAMqnOD" target="_blank">JLPT N3</a>
-    <a class="link-button lainnya" href="https://chat.whatsapp.com/HSyy8m4bmplDPnFG74TFCk" target="_blank">100% 日本語</a>
-    <a class="link-button support-sensei" href="https://trakteer.id/RiimuCollection" target="_blank">Support Sensei</a>
-  </div>
+  <div class="main">
+    <div class="profile">
+      <img src="https://via.placeholder.com/120" alt="Yumeka Nihongo Class">
+      <h2>Yumeka Nihongo Class</h2>
+    </div>
 
+    <p class="description">Belajar bahasa Jepang dari dasar dengan metode menyenangkan dan terstruktur.</p>
+
+    <div class="link-container">
+      <a class="link-button pendaftaran" href="https://bit.ly/YumekaNihongoClass" target="_blank">Pendaftaran</a>
+      <a class="link-button group-utama" href="https://chat.whatsapp.com/GJTM7yFJBE36PagWJt3T5u" target="_blank">Grup Utama</a>
+      <a class="link-button lainnya" href="https://chat.whatsapp.com/INJSrOVpBFD2heiV4LNbtj" target="_blank">Hiragana & Katakana</a>
+      <a class="link-button lainnya" href="https://chat.whatsapp.com/HYOinCXMcHs8EV11zrvA8G" target="_blank">JLPT N5</a>
+      <a class="link-button lainnya" href="https://chat.whatsapp.com/Loj3TcPq3YxDhA2MVoVzWN" target="_blank">JLPT N4</a>
+      <a class="link-button lainnya" href="https://chat.whatsapp.com/EwMaeM7uiNoIRueqAMqnOD" target="_blank">JLPT N3</a>
+      <a class="link-button lainnya" href="https://chat.whatsapp.com/HSyy8m4bmplDPnFG74TFCk" target="_blank">100% 日本語</a>
+      <a class="link-button support-sensei" href="https://trakteer.id/RiimuCollection" target="_blank">Support Sensei</a>
+    </div>
+  </div>
 
   <footer>
-footer {
-  margin-top: 50px; 
-  text-align: center;
-}
     © 2025 Yumeka Nihongo Class. All rights reserved.
   </footer>
 
