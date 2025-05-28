@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -46,7 +45,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 15px;
     }
 
     .link-button {
@@ -54,12 +52,13 @@
       background-color: #e91e63;
       color: white;
       padding: 15px 25px;
-      border-radius: 10px;
+      border-radius: 12px;
       width: 80%;
       max-width: 300px;
       font-size: 16px;
       transition: all 0.3s ease;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px; /* Tambahkan jarak antar tombol */
     }
 
     .link-button:hover {
@@ -72,28 +71,27 @@
       color: #888;
       font-size: 14px;
     }
-  
-.link-button.pendaftaran {
-  background-color: #0000ff;
-  color: white;
-}
 
-.link-button.grup-utama {
-  background-color: #000000;
-  color: white;
-}
+    .link-button.pendaftaran {
+      background-color: #0000ff;
+      color: white;
+    }
 
-.link-button.support-sensei {
-  background-color: #ffffff;
-  color: #e91e63;
-  border: 2px solid #e91e63;
-}
+    .link-button.grup-utama {
+      background-color: #000000;
+      color: white;
+    }
 
-</style>
+    .link-button.support-sensei {
+      background-color: #ffffff;
+      color: #e91e63;
+      border: 2px solid #e91e63;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="profile">
+  <div class="profile">
     <img src="https://via.placeholder.com/120" alt="Yumeka Nihongo Class">
     <h2>Yumeka Nihongo Class</h2>
   </div>
